@@ -56,7 +56,7 @@ function handleGuess(chosenLetter) {
 }
 
 function updateHangmanPicture() {
-  document.getElementById('hangmanPic').src = './images/' + mistakes + '.jpg';
+document.getElementById('hangmanPic').src = 'assets/images/' + mistakes + '.jpg';
 }
 
 function checkIfGameWon() {
